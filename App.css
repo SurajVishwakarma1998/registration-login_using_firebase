@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background-image: url("https://picsum.photos/1600/900");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+
+.reg{
+  margin: 25px auto;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color:transparent;
+  width: 450px;
+  height: 660px;
+  border-radius: 10px;
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  margin: 10% auto;
+  width: 400px;
+  padding: 80px 40px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #50a3a2;
+  
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+.App{
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+form {
+  padding: 20px 0;
+}
+
+.input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+.button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
